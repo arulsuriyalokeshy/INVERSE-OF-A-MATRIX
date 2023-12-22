@@ -13,12 +13,18 @@ using array function
 to find the inverse of a matrix
 ### Step 4:
 End the program
-
-
-
 ## Program:
+```python
+#Program to find the inverse of a matrix.
+#Developed by:Suriya prakash.S
+#RegisterNumber:23013599
+import numpy as np
+A=np.array([[2,1,1],[1,1,1],[1,-1,2]])
+inverse=np.linalg.inv(A)
+print(inverse)
+```
 ## Output:
-![math 3](https://github.com/arulsuriyalokeshy/INVERSE-OF-A-MATRIX/assets/149130151/49c6bf1b-e387-41d7-9418-f02e85dcafb1)
+![image](https://github.com/arulsuriyalokeshy/INVERSE-OF-A-MATRIX/assets/149130151/641665d3-fd30-48e6-bf18-34b5f1f3b72b)
 
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
